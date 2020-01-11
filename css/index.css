@@ -268,3 +268,53 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.btnPar {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+@media (max-width:500px) {
+  .btnPar {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+}
+.btnPar .btn {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 30%;
+  border: 2px solid #22283A;
+  background: #22283A;
+  color: white;
+  font-size: 1.9rem;
+}
+.btnPar .btn:hover {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 30%;
+  border: 2px solid navy;
+  background: blue;
+  color: white;
+}
+@media (max-width:500px) {
+  .btnPar .btn {
+    width: 100%;
+    border: 2px solid #22283A;
+    background: #22283A;
+    color: white;
+  }
+  .btnPar .btn:hover {
+    width: 100%;
+    border: 2px solid white;
+    background: silver;
+    color: black;
+  }
+}
