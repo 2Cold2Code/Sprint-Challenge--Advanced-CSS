@@ -85,20 +85,19 @@
   }
   
   .button{
-    border: 3px solid yellow;
     .center();
-    .btn(30%; @btn-bg-color; @btn-bg-color; white);
+    .btn(30%; @btn-bg-color; white);
     font-size: 1.9rem;
     
     &:hover{
-      .btn(30%; navy; blue; white);
+      .btn(30%; blue; white);
     }
     
     @media @phone{
       .btn(100%; @btn-bg-color; @btn-bg-color);
     
         &:hover{
-          .btn(100%; white; silver; black);
+          .btn(100%; silver; black);
         }
     }
     
