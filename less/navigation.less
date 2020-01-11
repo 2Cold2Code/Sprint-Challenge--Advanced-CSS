@@ -1,5 +1,40 @@
 // Navigation code here
-
-.headerWithBg{
+.titNavPar{
     .addBg(@nav-bg);
+    
+    .h1Par{
+        .custLay(center; center; row; nowrap);
+        width:100%;
+        height: 60%;
+        font-size: 6rem;
+  
+        h1 {
+            padding: 3rem;
+        }
+        
+        p {
+            padding:0 15px;
+        }
+    }
+    
+    .navPar {
+        
+        width:100%;
+        font-size: 1.6rem;
+        .custLay(center; center; row; nowrap);
+    }
+    
+    .navPar nav{
+        .container();
+        width: 100%;
+        .center();
+    }
+    
+    .navPar nav a{
+        box-sizing: border-box;
+        margin: 0 1.8rem;
+        padding: .2rem 1.2rem;
+        width: 20%;
+        .custLay(center; center; row; nowrap);
+    }
 }
