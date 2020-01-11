@@ -264,11 +264,12 @@ footer {
   border-radius: 10px;
 }
 .button-container {
-  width: 100%;
+  width: 50%;
   height: 4rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-left: 6rem;
 }
 @media (max-width:500px) {
   .button-container {
@@ -278,17 +279,20 @@ footer {
   }
 }
 .button-container .button {
+  height: 4rem;
+  padding-top: 0.5rem;
   justify-content: center;
   align-content: center;
+  border-radius: 1rem;
   display: flex;
-  width: 30%;
+  width: 25%;
   background-color: #22283A;
   color: white;
   font-size: 1.9rem;
 }
 .button-container .button:hover {
   display: flex;
-  width: 30%;
+  width: 25%;
   background-color: blue;
   color: white;
 }
