@@ -1,9 +1,9 @@
 // Navigation code here
-.titNavPar{
-    .addBg(@nav-bg);
+.topWithBg{
+    background-color: @nav-bg;
     
-    .h1Par{
-        .custLay(center; center; row; nowrap);
+    .main-header{
+        .center();
         width:100%;
         height: 60%;
         font-size: 6rem;
@@ -17,24 +17,25 @@
         }
     }
     
-    .navPar {
+    .nav-container {
         
         width:100%;
         font-size: 1.6rem;
-        .custLay(center; center; row; nowrap);
+        .center();
     }
     
-    .navPar nav{
+    .nav-container nav{
         .container();
         width: 100%;
         .center();
     }
     
-    .navPar nav a{
-        box-sizing: border-box;
+    .nav-container nav a{
+        text-decoration: none;
+        color: @river-bend;
         margin: 0 1.8rem;
         padding: .2rem 1.2rem;
         width: 20%;
-        .custLay(center; center; row; nowrap);
+        .center();
     }
 }

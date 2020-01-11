@@ -6,28 +6,11 @@
     align-content: center;
 }
 
-.custLay(@just; @align; @flow; @wrap){
+.btn(@sz; @colorB; @bgcolor; @colorF){
     display: flex;
-    justify-content: @just;
-    align-content: @align;
-    flex-direction: @flow;
-    flex-wrap: @wrap;
-
-}
-
-.addBorder(@sd; @col){
-    border: 2px @sd @col;
-}
-
-.addBg(@bgcol){
-    background:@bgcol;
-}
-
-.butn(@sz; @colorB; @bgcolor; @colorF){
-    width:@sz;
-    .addBorder(solid; @colorB);
-    .addBg(@bgcolor);
-    color:@colorF;
-    
+    width: @sz;
+    border: 2px solid @colorB;
+    background-color: @bgcolor;
+    color: @colorF; 
 }
 
