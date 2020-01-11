@@ -160,20 +160,52 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-.headerWithBg {
-  height: 10vh;
-  background-color: #F6F6F6;
-  display: flex;
-  flex-direction: column;
+.titNavPar {
+  background: #F6F6F6;
 }
-.headerWithBg nav {
-  display: flex;
-  justify-content: space-around;
-}
-.headerWithBg nav h1 {
-  font-size: 80rem;
+.titNavPar .h1Par {
   display: flex;
   justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 60%;
+  font-size: 6rem;
+}
+.titNavPar .h1Par h1 {
+  padding: 3rem;
+}
+.titNavPar .h1Par p {
+  padding: 0 15px;
+}
+.titNavPar .navPar {
+  width: 100%;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.titNavPar .navPar nav {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.titNavPar .navPar nav a {
+  box-sizing: border-box;
+  margin: 0 1.8rem;
+  padding: 0.2rem 1.2rem;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 footer {
   color: #22283B;
