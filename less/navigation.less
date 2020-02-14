@@ -1,1 +1,47 @@
 // Navigation code here
+.topWithBg{
+    background-color: @nav-bg;
+    
+    .main-header{
+        .center();
+        width:100%;
+        height: 60%;
+        font-size: 6rem;
+  
+        h1 {
+            padding: 3rem;
+        }
+        
+        p {
+            padding:0 15px;
+        }
+    }
+    
+    .nav-container {
+        
+        width:100%;
+        font-size: 1.6rem;
+        .center();
+    }
+    
+    .nav-container nav{
+        .container();
+        width: 100%;
+        .center();
+    }
+    
+    .nav-container nav a{
+        text-decoration: none;
+        color: @river-bend;
+        margin: 0 1.8rem;
+        padding: .2rem 1.2rem;
+        width: 20%;
+        .center();
+        
+        @media @phone{
+            width: 15%;
+            justify-content: space-evenly;
+            flex-wrap: nowrap;
+        }
+    }
+}
